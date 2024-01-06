@@ -1,4 +1,8 @@
-let myAge=23;
-let humanDogRatio=7;
-let dogAge=myAge*humanDogRatio;
-console.log(dogAge);
+let bonuspts=50;
+console.log(bonuspts);
+bonuspts = bonuspts + 50;
+console.log(bonuspts);
+bonuspts = bonuspts - 75;
+console.log(bonuspts);
+bonuspts = bonuspts + 50;
+console.log(bonuspts);
