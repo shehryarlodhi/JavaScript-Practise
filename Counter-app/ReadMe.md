@@ -22,6 +22,11 @@ View Previous Entries: 		Display a list of previously saved count values.
 
 5-View the list of previous entries displayed below the counter.
 
+**Screen Shot**
+
+![image](https://github.com/shehryarlodhi/JavaScript-Practise/assets/102411526/b600b1f3-ea3c-4e31-9bd4-ee09eed2e1ec)
+
+
 **Technologies Used**
 
 HTML: Structure
