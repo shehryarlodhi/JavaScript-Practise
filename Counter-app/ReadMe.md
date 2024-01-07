@@ -30,7 +30,7 @@ JavaScript: Functionality Preview
 
 **Contributors**
 
-Shehryar Lodhi
+[Shehryar Lodhi] (https://github.com/shehryarlodhi)
 
 **License**
 s
