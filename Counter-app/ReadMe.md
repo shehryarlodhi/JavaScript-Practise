@@ -1,10 +1,14 @@
 **JavaScript Counter App**
+
 This is a simple JavaScript counter application designed for beginners as a small project to practice basic HTML, CSS, and JavaScript skills.
 
+
 **Features**
+
 Increment Counter:     		Click the "INCREMENT" button to increase the count by one.
 Save Counter:          		Save the current count value.
 View Previous Entries: 		Display a list of previously saved count values.
+
 
 **Usage**
 
@@ -29,4 +33,5 @@ JavaScript: Functionality Preview
 Shehryar Lodhi
 
 **License**
+s
 This project is licensed under the MIT License.
