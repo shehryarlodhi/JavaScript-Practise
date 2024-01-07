@@ -38,5 +38,5 @@ JavaScript: Functionality Preview
 [Shehryar Lodhi] (https://github.com/shehryarlodhi)
 
 **License**
-s
+
 This project is licensed under the MIT License.
