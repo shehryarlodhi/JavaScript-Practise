@@ -7,6 +7,7 @@ Save Counter:          		Save the current count value.
 View Previous Entries: 		Display a list of previously saved count values.
 
 **Usage**
+
 1-Clone or download the repository.
 
 2-Open the index.html file in a web browser.
@@ -18,11 +19,13 @@ View Previous Entries: 		Display a list of previously saved count values.
 5-View the list of previous entries displayed below the counter.
 
 **Technologies Used**
+
 HTML: Structure
 CSS: Styling
 JavaScript: Functionality Preview
 
 **Contributors**
+
 Shehryar Lodhi
 
 **License**
