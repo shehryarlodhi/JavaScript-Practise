@@ -1,33 +1,71 @@
 /* styles.css */
 
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
+  font-family: "Arial", sans-serif;
+  background-color: #fffbfb; /* Light background color */
+  color: #333; /* Dark text color */
   margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.game {
+  background-color: #d7e2e9; /* Light gray color for the game section */
+  color: #333; /* Dark text color */
   padding: 20px;
-  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center the content */
 }
 
 h1 {
-  color: #333;
+  color: #333; /* Dark text color for the header */
+  margin-bottom: 20px;
 }
 
 p {
-  margin-bottom: 10px;
-}
-
-button {
-  padding: 10px 20px;
   font-size: 16px;
-  background-color: #007bff;
-  color: #fff;
+  margin: 5px 0;
+}
+
+#start-btn {
+  background-color: #216b79; /* Green color for buttons */
+  color: #ffffff;
+  padding: 15px 30px;
+  font-size: 16px;
   border: none;
+  margin: 10px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  width: 150px; /* Set equal width for buttons */
+  border-radius: 5px; /* Round the corners */
+}
+#newcard-btn {
+  background-color: #8613a3; /* Red color for buttons */
+  color: #ffffff;
+  padding: 15px 30px;
+  font-size: 16px;
+  border: none;
+  margin: 10px;
+  cursor: pointer;
+  width: 150px; /* Set equal width for buttons */
+  border-radius: 5px; /* Round the corners */
 }
 
-button:hover {
-  background-color: #0056b3;
+#start-btn:hover {
+  background-color: #0c4d6b;
+}
+#newcard-btn:hover {
+  background-color: #36053a; /* Darker red color on hover */
 }
 
-/* Add more styles as needed */
+#cards-el {
+  font-weight: bold;
+}
+
+#player-el {
+  font-style: italic;
+}

@@ -8,8 +8,13 @@ let messageEl = document.querySelector("#message-el");
 let sumEl = document.querySelector("#sum-el");
 let cardsEl = document.querySelector("#cards-el");
 let cards = [firstCard, secondCard];
+let player = {
+    name: "Shehryar Lodhi",
+    chips: 150
+}
 
-
+let playerEl = document.getElementById("player-el");
+playerEl.textContent = player.name + ": $" + player.chips;
 
 function startGame() {
     renderGame();
@@ -55,9 +60,11 @@ function renderGame() {
 
 }
 function newCard() {
-    let newcard = getRandomCard();
-    cards.push(newcard);
-    sum = sum + newcard;
-    renderGame();
+    if (isalive === true && hasblackjack === false){
+        let newcard = getRandomCard();
+        cards.push(newcard);
+        sum = sum + newcard;
+        renderGame();
+    }
 }
 
