@@ -22,7 +22,7 @@ CSS: Provides styling for a visually appealing interface.
 JavaScript: Implements game logic and functionality.
 
 Contributors:
-Shehryar Sajid 
+Shehryar Sajid (https://github.com/shehryarlodhi)
 
 License:
 This project is licensed under the MIT License. See the LICENSE file for details.
