@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 10px;
+  font-family: sans-serif;
+  min-width: 400px;
+}
+
+input {
+  padding: 10px;
+  /* padding-right: 10px; */
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #b6abab;
+  border-radius: 3px;
+}
+
+button {
+  margin-top: 7px;
+  color: white;
+  background-color: green;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+a {
+  color: green;
+}
+
+li {
+  margin: 5px;
+}
